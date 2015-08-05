@@ -12,7 +12,7 @@ is configured to use Devise Invitable.
 Add the following to your `Gemfile`
 
 ```ruby
-gem 'rails_admin_invite', :git => 'git@github.com:tonywok/rails_admin_invite.git'
+gem 'rails_admin_invite', :git => 'git@github.com:yukihr/rails_admin_invite.git'
 ```
 
 ## TODO
