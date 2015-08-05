@@ -1,0 +1,10 @@
+ja:
+  admin:
+    actions:
+      invite:
+        title: '%{model_label}を招待する'
+        menu: '%{model_label}を招待する'
+        breadcrumb: 招待
+        link: 招待
+        sent: '%{email} に招待メールを送りました。'
+        done: 招待完了

@@ -1,4 +1,5 @@
 #!/usr/bin/env rake
+
 begin
   require 'bundler/setup'
 rescue LoadError
@@ -20,8 +21,4 @@ RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
-
-
-
 Bundler::GemHelper.install_tasks
-
