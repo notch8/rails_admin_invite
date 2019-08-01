@@ -2,4 +2,4 @@
   :url => invite_path(:model_name => @abstract_model.to_param, :id => @object.id),
   :as => @abstract_model.param_key,
   :html => { :multipart => true, :class => "form-horizontal denser", :data => { :title => @page_name } } do |form|
-    = form.generate :action => :invite
+    = form.generate :action => :create
