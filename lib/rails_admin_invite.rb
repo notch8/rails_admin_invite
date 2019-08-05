@@ -26,7 +26,7 @@ module RailsAdmin
         end
 
         register_instance_option :http_methods do
-          [:get, :post]
+          [:get, :post, :patch]
         end
 
         register_instance_option :visible? do
